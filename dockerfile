@@ -5,5 +5,6 @@ RUN apk update && \
 
 RUN pip --no-cache-dir install ansible
     ln -s /opt/ansible_project/etc/ansible/ /etc/ansible
+    systemctl enable ansible
 
 CMD ["ansible", "--version"]
