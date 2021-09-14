@@ -1,0 +1,2 @@
+- name: install
+  shell: /etc/ansible/roles/promtail.sh
