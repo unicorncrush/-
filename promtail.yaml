@@ -1,0 +1,4 @@
+- hosts: promtail     
+  remote_user: root
+  roles:
+   - promtail
